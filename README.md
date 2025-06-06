@@ -2,24 +2,24 @@
 
 A powerful and intuitive chat interface for querying MySQL databases using natural language. Built with Streamlit, LangChain, and ChatGroq, this application allows you to interact with your MySQL database through conversational queries.
 
-## 🌟 Features
+##  Features
 
-- 🤖 **AI-Powered SQL Generation**: Automatically converts natural language questions into SQL queries
-- 💬 **Conversational Interface**: Chat-based interaction with context-aware responses
-- 🔌 **Easy Database Connection**: Simple MySQL connection setup through a user-friendly interface
-- 🔐 **Secure Credentials**: Password-protected database connection with environment variable support
-- 📊 **Real-time Results**: Instant query execution and natural language responses
-- 🔄 **Conversation History**: Maintains context of your chat history for better query understanding
-- 🛠️ **Error Handling**: Robust error handling and user-friendly error messages
-- 🔑 **API Key Management**: Support for both .env file and manual GROQ API key entry
+-  **AI-Powered SQL Generation**: Automatically converts natural language questions into SQL queries
+-  **Conversational Interface**: Chat-based interaction with context-aware responses
+-  **Easy Database Connection**: Simple MySQL connection setup through a user-friendly interface
+-  **Secure Credentials**: Password-protected database connection with environment variable support
+-  **Real-time Results**: Instant query execution and natural language responses
+-  **Conversation History**: Maintains context of your chat history for better query understanding
+-  **Error Handling**: Robust error handling and user-friendly error messages
+-  **API Key Management**: Support for both .env file and manual GROQ API key entry
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Python 3.8 or higher
 - MySQL Server
 - GROQ API Key (Get one from [Groq Console](https://console.groq.com/))
 
-## 🚀 Installation
+##  Installation
 
 1. Clone the repository:
 ```bash
@@ -65,7 +65,7 @@ streamlit run app.py
      - Database Name
 4. Click "Connect" to establish the database connection
 
-## 💡 Usage
+##  Usage
 
 1. Once connected, you can start asking questions about your database in natural language
 2. The AI will:
@@ -79,7 +79,7 @@ streamlit run app.py
    - Reset the application
    - View available tables
 
-## 🛠️ Built With
+##  Built With
 
 - [Streamlit](https://streamlit.io/) - Web application framework
 - [LangChain](https://www.langchain.com/) - Framework for LLM applications
@@ -87,7 +87,7 @@ streamlit run app.py
 - [MySQL Connector](https://dev.mysql.com/doc/connector-python/en/) - MySQL database connection
 - [Python-dotenv](https://pypi.org/project/python-dotenv/) - Environment variable management
 
-## ⚠️ Troubleshooting
+##  Troubleshooting
 
 - **Connection Issues**:
   - Verify MySQL server is running
@@ -108,3 +108,4 @@ streamlit run app.py
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+Made with ❤️ by Harshita Singh
