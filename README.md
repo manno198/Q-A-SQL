@@ -108,4 +108,5 @@ streamlit run app.py
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-Made with ❤️ by Harshita Singh
+
+Created by Harshita Singh
