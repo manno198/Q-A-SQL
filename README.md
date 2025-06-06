@@ -1,4 +1,4 @@
-# SQL Chat 💬
+# Q/A SQL
 
 A powerful and intuitive chat interface for querying MySQL databases using natural language. Built with Streamlit, LangChain, and ChatGroq, this application allows you to interact with your MySQL database through conversational queries.
 
@@ -104,10 +104,6 @@ streamlit run app.py
   - Ensure your question is clear and specific
   - Check if the required tables exist
   - Verify you have necessary permissions
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🤝 Contributing
 
