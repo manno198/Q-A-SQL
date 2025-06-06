@@ -3,6 +3,45 @@ import mysql.connector
 import urllib.parse
 import os
 
+st.set_page_config(page_title="SQL Chat", page_icon="💬", layout="wide")
+
+st.markdown("""
+    <style>
+        body {
+            background-color: #0f0f0f !important;
+            overflow-x: hidden;
+        }
+
+        .animated-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100vw;
+            background: repeating-linear-gradient(
+                120deg,
+                rgba(255, 255, 255, 0.05) 0,
+                rgba(255, 255, 255, 0.05) 1px,
+                transparent 1px,
+                transparent 30px
+            );
+            animation: moveLines 15s linear infinite;
+            z-index: 0;
+        }
+
+        @keyframes moveLines {
+            0% { background-position: 0 0; }
+            100% { background-position: 1000px 0; }
+        }
+
+        .main .block-container {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+    <div class="animated-bg"></div>
+""", unsafe_allow_html=True)
+
 
 
 # Remove proxy-related environment variables to avoid conflicts
@@ -184,7 +223,7 @@ if "db" not in st.session_state:
 
 
 # Streamlit UI Setup
-st.set_page_config(page_title="SQL Chat", page_icon="💬")
+
 st.title("Q/A SQL 🗨️")
 
 
