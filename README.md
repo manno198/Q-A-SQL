@@ -49,7 +49,7 @@ pip install -r requirements.txt
 GROQ_API_KEY=your_api_key_here
 ```
 
-## ⚙️ Configuration
+##  Configuration
 
 1. Start your MySQL server
 2. Launch the application:
