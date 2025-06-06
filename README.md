@@ -2,6 +2,7 @@
 
 A powerful and intuitive chat interface for querying MySQL databases using natural language. Built with Streamlit, LangChain, and ChatGroq, this application allows you to interact with your MySQL database through conversational queries.
 
+
 ##  Features
 
 -  **AI-Powered SQL Generation**: Automatically converts natural language questions into SQL queries
