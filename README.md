@@ -19,7 +19,7 @@ A powerful and intuitive chat interface for querying MySQL databases using natur
 
 - Python 3.8 or higher
 - MySQL Server
-- GROQ API Key (Get one from [Groq Console](https://console.groq.com/))
+- GROQ API Key 
 
 ##  Installation
 
